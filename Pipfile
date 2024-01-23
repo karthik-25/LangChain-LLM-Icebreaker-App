@@ -12,6 +12,7 @@ python-dotenv = "*"
 google-search-results = "*"
 flask = "*"
 typing-extensions = "*"
+gunicorn = "*"
 
 [dev-packages]
 
