@@ -11,6 +11,7 @@ openai = "==0.28.1"
 python-dotenv = "*"
 google-search-results = "*"
 flask = "*"
+typing-extensions = "*"
 
 [dev-packages]
 

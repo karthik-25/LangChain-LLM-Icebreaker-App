@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "ca3f3349777df28c18779082482abade58e4ddb70ac5367eb40fbe59959a3cc8"
+            "sha256": "b83d8b37b258f1d40e917e51822568c1f93d004f934034a41493c11b55241200"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -445,29 +445,29 @@
         },
         "langchain": {
             "hashes": [
-                "sha256:3f1dcf458bbd603447e93ece99fe6611b1fafa16dc67464b1c8091dd475242f9",
-                "sha256:a9616544b78ccf1a5b286fae7926e00beea6dc5b8fda983e5180313fefd3dfab"
+                "sha256:3765a071d6b8858c3c68c121b8e7372a40e784f009f4dd017c99e99785731754",
+                "sha256:a8a91ee3bb5fb2e69eb6030b513168cd73752bcda5f5a4427f60eb531fbe6116"
             ],
             "index": "pypi",
             "markers": "python_version < '4.0' and python_full_version >= '3.8.1'",
-            "version": "==0.1.1"
+            "version": "==0.1.2"
         },
         "langchain-community": {
             "hashes": [
-                "sha256:655196e446e7f37f4882221b6f3f791d6add28ea596d521ccf6f4507386b9a13",
-                "sha256:cf66c6ff7fcbeb582f5e88ee00decea7fdeca5ccddda725046f28efc697c41a7"
+                "sha256:01cabb64c303d09449728b8d9378c7d5e6e6cbc05b1fd93fc6e1ff8ceb38d2f5",
+                "sha256:88b328c2a6437ede0cdb60696f8f3cc7353766c3c5698b436adfa9f13117d2a1"
             ],
             "index": "pypi",
             "markers": "python_version < '4.0' and python_full_version >= '3.8.1'",
-            "version": "==0.0.13"
+            "version": "==0.0.14"
         },
         "langchain-core": {
             "hashes": [
-                "sha256:80ad9e558f2226ce620cff93b26f8e60a45facd8900acb6e1a18e9dfa769a7eb",
-                "sha256:da55690feed05a68ce1919254753232170b866ebaaae615f530b73c6e232444c"
+                "sha256:2dfd21a7442d0d3b05ae8f35a96c42983ad2dd23e3c103d1c301773d6c316c64",
+                "sha256:c4f88ffa23200ba212b29f95933e51d6b398fcf02a40b49fc50f7fd75df50569"
             ],
             "markers": "python_version < '4.0' and python_full_version >= '3.8.1'",
-            "version": "==0.1.13"
+            "version": "==0.1.14"
         },
         "langsmith": {
             "hashes": [
@@ -999,7 +999,8 @@
                 "sha256:23478f88c37f27d76ac8aee6c905017a143b0b1b886c3c9f66bc2fd94f9f5783",
                 "sha256:af72aea155e91adfc61c3ae9e0e342dbc0cba726d6cba4b6c72c1f34e47291cd"
             ],
-            "markers": "python_version < '3.11'",
+            "index": "pypi",
+            "markers": "python_version >= '3.8'",
             "version": "==4.9.0"
         },
         "typing-inspect": {
