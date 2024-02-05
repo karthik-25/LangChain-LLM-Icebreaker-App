@@ -31,4 +31,12 @@ def scrape_linkedin_profile(linkedin_profile_url: str):
         for group_dict in data.get("groups"):
             group_dict.pop("profile_pic_url")
 
+    for i in data['experiences']:
+        i.pop('logo_url')
+
+    for i in data['education']:
+        i.pop('logo_url')
+
+    data['experiences'] = [x for x in data['experiences'] if x['starts_at']['year'] > 2014]
+
     return data
