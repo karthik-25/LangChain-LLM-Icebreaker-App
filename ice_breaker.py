@@ -12,7 +12,6 @@ from output_parsers import PersonIntel, person_intel_parser
 
 def ice_break(name: str) -> Tuple[PersonIntel, str]:
     linkedin_profile_url = linkedin_lookup_agent(name)
-    # linkedin_profile_url = "https://www.linkedin.com/in/karthikeyan-shanmugam25/"
 
     summary_template = """
         given the Linkedin information {information} about a person, I want you to create:
