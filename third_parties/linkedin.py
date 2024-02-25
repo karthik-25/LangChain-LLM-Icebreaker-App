@@ -15,7 +15,7 @@ def scrape_linkedin_profile(linkedin_profile_url: str):
     )
 
     # response = requests.get(
-    #     "https://gist.githubusercontent.com/karthik-25/ccce13c73e75d3e98295e91d49a76431/raw/42e040b05f32bc66f7fcc645953729aaebe9b542/karthik.json"
+    #     "<add github gist url with content for testing>"
     # )
 
     data = response.json()
