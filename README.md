@@ -1,4 +1,4 @@
-# LinkedIn Icebreaker using LLM and LangChain
+# LinkedIn Icebreaker App using LangChain and OpenAI's LLM
 
 ## Description
 This project is a web application built on top of [LangChain](https://www.langchain.com/) and leverages OpenAI's Large Language Model (LLM) to generate personalized ice breakers by analyzing LinkedIn profiles. It involves agents and the [ReAct framework](https://arxiv.org/pdf/2210.03629.pdf) to intelligently scrape LinkedIn data, process it through OpenAI's [GPT-3.5 Turbo](https://platform.openai.com/docs/models/gpt-3-5-turbo), and craft conversation starters, facts, and interests tailored to an individual's professional background. It also uses Flask microframework and [SerpApi](https://serpapi.com/) to search Google for LinkedIn URL of an individual. The goal was to explore and build an LLM-powered application using LangChain's modular framework. You can check it out [here](https://llm-icebreaker.onrender.com/).
